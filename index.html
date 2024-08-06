@@ -1,0 +1,64 @@
+<html>
+<head>
+    <title>
+        Index HTML
+    </title>
+    <link rel="stylesheet" href="../css/stylesheet.css">
+    <link rel="stylesheet" href="css/booststrap/bootstrap.min.css">
+</head>
+<body>
+<main>
+    <script src="./js/jquery/jquery-3.7.1.min.js"></script>
+    <nav class="navbar navbar-expand-lg bg-white border-bottom border-body"  >
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+  <section id="section-1" class="container-lg">
+      <div class="mb-3">
+      <label for="idInput" class="form-label">ID</label>
+      <input type="text" class="form-control" id="idInput" >
+      </div>
+      <div class="mb-3">
+      <label for="titleInput" class="form-label">Title</label>
+      <input type="text" class="form-control" id="titleInput" >
+      </div>
+      <div class="mb-3">
+          <label for="inputContent" class="form-label">Content</label>
+          <textarea class="form-control" id="inputContent" rows="3"></textarea>
+      </div>
+      <button type="button" class="btn btn-dark" id="postBtn">Post</button>
+  </section>
+  <section id="section-2" class="section">Section2</section>
+</main>
+<footer>
+</footer>
+<script src="js/bootstrap/bootstrap.min.js"></script>
+<script type="module" src="./js/script.js"></script>
+</body>
+</html>
